@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "R2sStringHelper\\": "src/"
+            "R2SStringHelper\\": "src/"
         }
     },
     "authors": [
