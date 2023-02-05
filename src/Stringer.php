@@ -60,4 +60,9 @@ class Stringer
     {
         return str_contains($this->string, $needle);
     }
+
+    public static function concatenate(array $arrayOfStrings, string $separator = ' '): string
+    {
+        return implode(' ', $arrayOfStrings);
+    }
 }
